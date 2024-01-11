@@ -152,7 +152,7 @@ export async function register(username, password, email) {
 /////// log out
 export async function logOut() {
   try {
-    const res = await fetch("http://localhost:4000/auth/logout", {
+    const res = await fetch(`${baseURL}/auth/logout`, {
       method: "GET",
       credentials: "include",
     });
