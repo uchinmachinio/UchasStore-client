@@ -1,6 +1,5 @@
 import { useContext, useEffect, useState } from "react";
 import "./AddNewProductPage.css";
-import { CurrencyContext } from "../../Contexts/CurrencyContext/CurrencyContext";
 import { useNavigate } from "react-router-dom";
 import { fetchCountries } from "../../Utils/externalApi";
 import { uploadNewProduct } from "../../Utils/api";
@@ -8,7 +7,6 @@ import { uploadNewProduct } from "../../Utils/api";
 function AddNewProductPage() {
   const navigate = useNavigate();
 
-  const { currencies } = useContext(CurrencyContext);
   const [chosenCurrency, setChosenCurrency] = useState("$");
 
   //inputs
@@ -42,7 +40,6 @@ function AddNewProductPage() {
   //manage uploaded images
   const [images, setImages] = useState([]);
   const [imagesToStore, setImagesToStore] = useState([]);
-  const [submitDisabled, setSubmitDisabled] = useState(true); //disale or enable the submission based on the amount of images uploaded
 
   function handleUpload(e) {
     const files = e.target.files;
