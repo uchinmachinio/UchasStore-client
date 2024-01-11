@@ -5,7 +5,6 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import { UserContextProvider } from "./Contexts/UserContext/UserContext";
 import { ProductsContextProvider } from "./Contexts/ProductsContext/ProductsContext.jsx";
-import { CurrencyContextProvider } from "./Contexts/CurrencyContext/CurrencyContext.jsx";
 import "regenerator-runtime/runtime";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -13,9 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <UserContextProvider>
         <ProductsContextProvider>
-          <CurrencyContextProvider>
-            <App />
-          </CurrencyContextProvider>
+          <App />
         </ProductsContextProvider>
       </UserContextProvider>
     </BrowserRouter>
