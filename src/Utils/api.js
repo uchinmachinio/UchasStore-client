@@ -1,4 +1,5 @@
-export const baseURL = "https://uchas-store-server.onrender.com";
+export const baseURL =
+  "https://uchinmachinio.onrender.com/?fbclid=IwAR1lHc3qC7jUDlmm_wyp9kWVLxhQ60hguU1Zxm1YsLjYD-UWTFo1YW-H6Zo";
 //fetching user information if they are authenticated for user context,
 //if logged in receive userinfo from server otherwise empty obj
 export async function fetchUserDataIfAuthenticated() {
