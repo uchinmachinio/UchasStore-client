@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(234, 233, 233);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+@media (max-width: 360px) {
+  body {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 0.8rem;
+  }
+}

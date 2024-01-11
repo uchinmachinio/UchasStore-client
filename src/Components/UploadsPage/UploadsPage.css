@@ -1,0 +1,46 @@
+.my-uploads {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 4;
+  align-items: left;
+}
+
+.product-list-uploads {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+  gap: 0.9rem;
+  justify-content: left;
+}
+
+.uploads-add-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.add-new-prod-btn {
+  background-color: rgb(183, 178, 178);
+  border-radius: 50%;
+  width: 2rem;
+  aspect-ratio: 1/1;
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-uploads-info {
+  margin: auto;
+}
+
+@media (max-width: 730px) {
+  .uploads-page {
+    flex-direction: column;
+  }
+
+  .product-list-uploads {
+    margin-top: 2rem;
+  }
+}

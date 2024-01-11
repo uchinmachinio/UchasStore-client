@@ -1,0 +1,24 @@
+#user-menu {
+  position: absolute;
+  background-color: white;
+  border: solid black;
+  padding: 0.8rem 0;
+  padding-right: 1rem;
+  z-index: 70;
+}
+
+.closed {
+  display: none;
+}
+
+#user-menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#user-menu ul > * {
+  margin: 0.5rem;
+  color: rgb(60, 58, 58);
+  text-decoration: none;
+}

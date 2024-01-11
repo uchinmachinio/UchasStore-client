@@ -1,0 +1,53 @@
+#filter-tools {
+  display: flex;
+  justify-content: end;
+  background: transparent;
+  margin: 1rem 5rem 1rem 25rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  #filter-tools {
+    margin-left: 2rem;
+  }
+}
+
+@media (min-width: 1001px) {
+  #filter-tools button {
+    display: none;
+  }
+
+  select[name="filter"] {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #filter-tools > :first-child {
+    font-size: 0.7rem;
+    padding-top: 1rem;
+  }
+  #filter-tools {
+    margin-right: 2rem;
+    flex-direction: column;
+    align-items: end;
+  }
+}
+
+#filter-tools button {
+  width: 1.3rem;
+  border: none;
+  margin: 0.5rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+}
+
+.tools select {
+  padding: 0.2rem;
+}

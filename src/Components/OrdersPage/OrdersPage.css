@@ -1,0 +1,15 @@
+#orders-page {
+  flex: 4;
+}
+
+.order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  justify-content: left;
+}
+
+.no-orders-info {
+  text-align: center;
+  margin-top: 4rem;
+}

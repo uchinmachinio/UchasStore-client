@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header {
+  padding: 1rem 0;
+  background-color: white;
+}
+
+.navbar > * {
+  margin: 0 0.5rem;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.username {
+  white-space: nowrap;
+}
+
+.right-nav button {
+  padding: 0 0.3rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  min-width: 1.6rem;
+  aspect-ratio: 1/1;
+  background: transparent;
+  margin: 0 0.1rem;
+}
+
+.right-nav button:hover {
+  background-color: rgb(234, 233, 233);
+  transition: ease-in 0.2s;
+}
+
+.right-nav svg {
+  width: 80%;
+  transform: translate(0, 15%);
+}
+
+.right-nav span {
+  font-size: 0.81rem;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    font-size: x-large;
+    display: none;
+  }
+}

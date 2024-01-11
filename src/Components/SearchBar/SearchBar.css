@@ -1,0 +1,43 @@
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 1px 10px;
+  width: clamp(15rem, 20rem, 20rem);
+  margin: 0 2rem;
+}
+.search-bar input {
+  border: none;
+  width: 100%;
+}
+.search-bar form {
+  width: 85%;
+  border-right: 1px solid rgb(210, 208, 208);
+}
+.search-bar input:focus {
+  outline: none;
+}
+
+.search-bar button {
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  width: 1.8rem;
+  aspect-ratio: 1/1;
+  background: transparent;
+  margin: 0 auto;
+}
+
+.search-bar button:hover {
+  background-color: rgb(234, 233, 233);
+  transition: ease-in 0.2s;
+}
+
+.search-bar svg {
+  width: 60%;
+  aspect-ratio: 1/1;
+  fill: gray;
+  transform: translate(0, 10%);
+}
