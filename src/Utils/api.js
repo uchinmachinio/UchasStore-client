@@ -1,4 +1,4 @@
-export const baseURL = "https://uchasstore-api.vercel.app";
+export const baseURL = "https://uchas-store-server.onrender.com";
 //fetching user information if they are authenticated for user context,
 //if logged in receive userinfo from server otherwise empty obj
 export async function fetchUserDataIfAuthenticated() {
