@@ -81,7 +81,7 @@ function App() {
               />
             }
           />
-          <Route path="/product/:id" element={<SingleProductPage />} />
+          <Route path="product/:id" element={<SingleProductPage />} />
           <Route element={<ProtectedRoute openAuthForm={openAuthForm} />}>
             <Route element={<ProfilePage />}>
               <Route path="uploads" element={<UploadsPage />} />
