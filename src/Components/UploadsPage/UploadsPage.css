@@ -44,3 +44,10 @@
     margin-top: 2rem;
   }
 }
+
+@media (max-width: 462px) {
+  .product-list-uploads {
+    justify-content: center;
+  }
+}
+
