@@ -7,7 +7,7 @@ import { uploadNewProduct } from "../../Utils/api";
 function AddNewProductPage() {
   const navigate = useNavigate();
 
-  const [chosenCurrency, setChosenCurrency] = useState("$");
+  
 
   //inputs
   const [name, setName] = useState("");
@@ -70,7 +70,7 @@ function AddNewProductPage() {
     formData.append("price", price);
     formData.append("country", country);
     formData.append("category", category);
-    formData.append("currency", chosenCurrency);
+    
 
     imagesToStore.forEach((image) => {
       formData.append("images[]", image);
@@ -118,20 +118,7 @@ function AddNewProductPage() {
               value={price}
               onChange={(e) => setPrice(e.target.value)}
             />
-            <select
-              name="currnecy"
-              id="currency"
-              value={chosenCurrency}
-              onChange={(e) => setChosenCurrency(e.target.value)}
-            >
-              {currencies.map((cur) => {
-                return (
-                  <option key={cur} value={cur}>
-                    {cur}
-                  </option>
-                );
-              })}
-            </select>
+          
           </div>
 
           <label htmlFor="country">Ships from</label>
