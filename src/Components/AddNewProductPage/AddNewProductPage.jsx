@@ -108,11 +108,11 @@ function AddNewProductPage() {
             onChange={(e) => setDescription(e.target.value)}
           />
 
-          <label htmlFor="price">Price</label>
+          <label htmlFor="price">Price $</label>
           <div className="price-div">
             <input
               type="number"
-              name="price $"
+              name="price"
               placeholder="price"
               required
               value={price}
