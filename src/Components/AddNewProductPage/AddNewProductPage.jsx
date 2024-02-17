@@ -112,7 +112,7 @@ function AddNewProductPage() {
           <div className="price-div">
             <input
               type="number"
-              name="price"
+              name="price $"
               placeholder="price"
               required
               value={price}
