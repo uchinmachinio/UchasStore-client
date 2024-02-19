@@ -92,7 +92,7 @@ This is not a production level application, it is my personal project built to s
     node index.js
     ```
 ## Usage
-Do wahtever you want! feel free to click on everything, browse products, sort them,filter them, use search bar, add a product to sell, but dont forget to register first!
+Do wahtever you want! feel free to click on everything, browse products, sort them,filter them, use search bar, add a product to sell, add products you to the cart and place an order, but dont forget to register first!
 you can register freely with any username as I have not implemented email verification yet, so you do not have to share any of your personal information.
 
 **Important!**
