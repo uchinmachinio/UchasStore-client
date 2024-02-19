@@ -92,7 +92,11 @@ This is not a production level application, it is my personal project built to s
     node index.js
     ```
 ## Usage
-Do wahtever you want! feel free to click on everything, browse products, sort them,filter them, use search bar, register, add a product to sell!
+Do wahtever you want! feel free to click on everything, browse products, sort them,filter them, use search bar, add a product to sell, but dont forget to register first!
+you can register freely with any username as I have not implemented email verification yet, so you do not have to share any of your personal information.
+
+**Important!**
+I am using Passport.js for authentication,I was not able to implement logout functionality for users authenticated with google strategy, for some reason the documentation code does not work for this, one way to log out is to close the browser which destroys the session, or to wait for it to expire,I am working on fixing the issue.
 
 ## License
 
