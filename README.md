@@ -8,10 +8,10 @@ This is the front-end code of my full-stack MERN E-commerce website.
 4. [License](#license)
 
 ## overview
-This is not a production level application, it is my personal project built to show what I have learned and further practice, learn and grow as a developer. for clarity, I have decided to create seperate readmes for client and server repositories.
+This is not a production level application, it is my personal project built to show what I have learned and further practice, learn and grow as a developer. for clarity, I have decided to create seperate readmes for client and [server](https://github.com/uchinmachinio/UchasStore-server) repositories.
 
 - **Purpose:**
-   The client side is responsible for rendering the user interface, facilitating user interactions, and communicating with the server to fetch and display product data.
+   The client side is responsible for rendering the user interface, facilitating user interactions, and communicating with the [server](https://github.com/uchinmachinio/UchasStore-server) to fetch and display product data.
 
 - **Key Features:**
   - Browse products by category.
@@ -30,7 +30,7 @@ This is not a production level application, it is my personal project built to s
   - Built using React for a modular and efficient UI.
   - Styled with vanilla css for a visually appealing and consistent look.
   - React router.
-  - Imagekit third party service,for image optimization and efficient loading/storing.
+  - [Imagekit](https://imagekit.io/) third party service,for image optimization and efficient loading/storing.
 
 - **Architecture:**
   - Follows a component-based architecture for modularity and maintainability.
